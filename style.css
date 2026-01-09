@@ -225,3 +225,9 @@ footer {
         font-size: 2rem;
     }
 }
+/* Reduce hero height on mobile */
+@media (max-width: 600px) {
+    .hero {
+        padding: 70px 15px;
+    }
+        }
