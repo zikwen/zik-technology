@@ -363,3 +363,51 @@ footer {
     font-weight: bold;
     color: #0d6efd;
 }
+/* =========================
+   PORTFOLIO SECTION
+========================= */
+.portfolio {
+    padding: 60px 20px;
+    text-align: center;
+    background: #ffffff;
+}
+
+.portfolio h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.portfolio-intro {
+    max-width: 650px;
+    margin: 0 auto 40px;
+    color: #555;
+}
+
+.portfolio-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.portfolio-card {
+    background: #f8f9fa;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.portfolio-card img {
+    width: 100%;
+    display: block;
+}
+
+.portfolio-card h4 {
+    margin: 15px 0;
+    color: #0d6efd;
+}
