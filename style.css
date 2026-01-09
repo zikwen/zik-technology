@@ -433,3 +433,76 @@ footer {
     transform: translateY(-3px);
     box-shadow: 0 12px 25px rgba(0,0,0,0.35);
     }
+/* =========================
+   EARN MONEY SECTION
+========================= */
+.earn {
+    padding: 60px 20px;
+    background: #f8f9fa;
+    text-align: center;
+}
+
+.earn h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.earn-intro {
+    max-width: 650px;
+    margin: 0 auto 40px;
+    color: #555;
+}
+
+.earn-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.earn-card {
+    background: #ffffff;
+    padding: 25px 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.earn-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.earn-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.earn-card h3 {
+    margin-bottom: 10px;
+    color: #0d6efd;
+}
+
+.earn-card p {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.earn-btn {
+    display: inline-block;
+    padding: 12px 28px;
+    background: #25D366;
+    color: white !important;
+    text-decoration: none !important;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.earn-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
