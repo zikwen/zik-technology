@@ -178,3 +178,50 @@ footer {
     font-weight: bold;
     border-radius: 6px;
 }
+/* =========================
+   HERO FIX (IMPORTANT)
+========================= */
+
+.hero {
+    background: linear-gradient(135deg, #0d6efd, #0a58ca);
+    color: #ffffff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 720px;
+    margin: 0 auto 30px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    opacity: 0.95;
+}
+
+/* FORCE BUTTON STYLE */
+.hero-btn {
+    display: inline-block;
+    padding: 16px 34px;
+    background: #25D366 !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    font-weight: bold;
+    border-radius: 30px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+/* Mobile Fix */
+@media (max-width: 600px) {
+    .hero {
+        padding: 80px 15px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+}
